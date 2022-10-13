@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+          font-family: "Sofia", sans-serif;
+        }
+    </style>
     <title>CSE110 Team Meeting</title>
     <meta name="author" content="Cindy Wang">
-    <link rel="stylesheet" href="https://www.w3schools.com/tags/tag_link.asp">
+    <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
     <main>
         <img src="Meeting-Minutes.png" alt="Meeting-Mintues" width="450" height="300">
+        <div class = "myDiv5">
+            <h1>Xinyi(Cindy) Wang</h1>
+        </div>
         <header>
             <h1>CSE 110 Team Meeting</h1>
+            <h1 class="hidden">This is a hidden heading</h1>
             <b>Date:</b> Wednesday Oct.6, 2022
             <br><b>Time:</b> 8:00 pm - 9:00 pm
             <br><b>Location:</b> Warren Lecture Hall
             <hr>
+            <div class="myDiv4">
             <h2>Minutes</h2>
+            </div>
             <b>Agenda items:</b> 
             <p>enter agenda item here:</p>
             <ol>
@@ -49,10 +61,10 @@
                 </div>
                 <details>
                     <summary>CSE 110 course</summary>
-                    <p><span style="color:blue;font-weight:bold">CSE 110</span> is a course that requires a timely construction of a quality software system that meets a customer's needs, 
+                    <span style="color:blue;font-weight:bold">CSE 110</span> is a course that requires a timely construction of a quality software system that meets a customer's needs, 
                         is challenging. In this course you will get an introduction to team-based software engineering and development methods, 
                     including specification, design, implementation, testing, and software process.  The course emphasizes <i>team development</i>, 
-                    <i>agile methods</i>, <em>software design</em>, and use of tools such as IDE's, version control, test harnesses, and continuous integration.</p>
+                    <i>agile methods</i>, <em>software design</em>, and use of tools such as IDE's, version control, test harnesses, and continuous integration.
                     <nav>
                         <a href="https://canvas.ucsd.edu/courses/39754/assignments/526070">link to the syllabus</a>
                     </nav>
@@ -63,13 +75,17 @@
                     <p>This is the first meeting of the course.</p>
                 </details>
             </section>
+            <div class="myDiv2">
             <p>Posted by John Doe</p>
             <p>Some additional information here</p>
+            </div>
         </header>
         <hr>
         <footer>
-            <p>Author: Cindy Wang</p>
-            <p><a href="mailto:xiw013@ucsd.edu">xiw013@ucsd.edu</a></p>
+            <div class = "myDiv3">
+                <p>Author: Cindy Wang</p>
+                <p><a href="mailto:xiw013@ucsd.edu">xiw013@ucsd.edu</a></p>
+            </div>
         </footer>
         <form action="/action_page.php">
             <fieldset>
@@ -100,5 +116,28 @@
             </fieldset>
         </form>
     </main>
+    <div class="flex-container">
+        <div>first</div>
+        <div>second</div>
+        <div>third</div>  
+    </div>
+    
+    <div class="grid-container">
+        <div class="item1">Previous</div>
+        <div class="item2">Currrent</div>
+        <div class="item3">Next</div>
+    </div>
+    <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>What?</h2>
+          <p>Chania is a city on the island of Crete.</p>
+          <h2>Where?</h2>
+          <p>Crete is a Greek island in the Mediterranean Sea.</p>
+          <h2>How?</h2>
+          <p>You can reach Chania airport from all over Europe.</p>
+        </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
